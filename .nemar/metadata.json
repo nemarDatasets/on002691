@@ -1,28 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on002691",
-  "source": "openneuro",
-  "source_id": "ds002691",
+  "pipeline_stage": "validated",
   "title": "Internal attention study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {},
     "Dean Radin": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002691.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002691",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002691",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.quantum.2015.12.012",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises neurophysiological recordings from 20 subjects performing a sustained attention task involving mental concentration on a target stimulus. Each participant completed 20 repeated trial cycles of relaxation, preparation, and 15-second concentration periods while maintaining eyes-closed conditions. Participants received automated verbal instructions throughout the experiment. The study investigates internal attention mechanisms through controlled experimental protocols and relates to psychophysical interactions research (Radin et al., 2015).",
+  "methods_description": "Each of the 20 subjects performed a mental concentration task on a target stimulus for approximately 15-second periods across 20 repeated trials. Each trial cycle included: a 9-second relaxation period, a 6-second preparation phase with verbal instruction ('get ready'), and a 15-second concentration phase. All recordings were conducted with eyes closed. Verbal instructions were delivered via automated computer program connected to a speakerphone. See Radin et al. (2015) for details on the target stimulus and experimental rationale.",
+  "keywords": [
+    {
+      "term": "attention"
+    },
+    {
+      "term": "mental concentration"
+    },
+    {
+      "term": "sustained attention task"
+    },
+    {
+      "term": "internal attention"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "concentration"
+    },
+    {
+      "term": "eyes-closed"
+    },
+    {
+      "term": "psychophysics"
+    }
+  ],
+  "source_hash": "88f60bb8cf2754077eb04eed7599c097b306d3209cee422f972b8d698fa2cca6"
 }
