@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002691-blue)](https://doi.org/10.82901/nemar.on002691)
+
 This experiment has 20 subjects. Subjects asked to mentally concentrate on
 a target (see published article for more information) for periods of about 
 15 seconds.
