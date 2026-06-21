@@ -2,18 +2,34 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Internal attention study",
+  "description": "This dataset comprises EEG recordings from 20 subjects performing a sustained attention task involving mental concentration on a target stimulus. Participants received automated verbal instructions guiding them through cycles of relaxation, preparation, and 15-second concentration periods, with the entire experiment conducted with eyes closed. The dataset includes 20 repetitions of the attention task per participant and is annotated using HED (Hierarchical Event Descriptors) version 8.0.0.",
+  "methods_description": "EEG data were collected from 20 subjects during a guided attention task. Participants received four types of automated verbal instructions via speakerphone: wait, relax, get ready, and concentrate. Each trial cycle consisted of approximately 9 seconds of relaxation, 6 seconds of preparation, and 15 seconds of mental concentration on a target, repeated 20 times per subject with eyes closed throughout.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {},
     "Dean Radin": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002691.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "mental concentration"
+    },
+    {
+      "term": "psychophysics"
+    },
+    {
+      "term": "cognitive task"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002691",
       "identifier_type": "URL",
@@ -28,14 +44,24 @@
       "identifier": "10.1016/j.quantum.2015.12.012",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002691.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.82901/nemar.on002691",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "813.3 MB (22 files)"
   ],
   "formats": [
     ".gitattributes",
@@ -43,35 +69,8 @@
     ".m",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises neurophysiological recordings from 20 subjects performing a sustained attention task involving mental concentration on a target stimulus. Each participant completed 20 repeated trial cycles of relaxation, preparation, and 15-second concentration periods while maintaining eyes-closed conditions. Participants received automated verbal instructions throughout the experiment. The study investigates internal attention mechanisms through controlled experimental protocols and relates to psychophysical interactions research (Radin et al., 2015).",
-  "methods_description": "Each of the 20 subjects performed a mental concentration task on a target stimulus for approximately 15-second periods across 20 repeated trials. Each trial cycle included: a 9-second relaxation period, a 6-second preparation phase with verbal instruction ('get ready'), and a 15-second concentration phase. All recordings were conducted with eyes closed. Verbal instructions were delivered via automated computer program connected to a speakerphone. See Radin et al. (2015) for details on the target stimulus and experimental rationale.",
-  "keywords": [
-    {
-      "term": "attention"
-    },
-    {
-      "term": "mental concentration"
-    },
-    {
-      "term": "sustained attention task"
-    },
-    {
-      "term": "internal attention"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "concentration"
-    },
-    {
-      "term": "eyes-closed"
-    },
-    {
-      "term": "psychophysics"
-    }
-  ],
-  "source_hash": "88f60bb8cf2754077eb04eed7599c097b306d3209cee422f972b8d698fa2cca6"
+  "source_hash": "a9cb37a91297b9bf698932a75f98c1284a723d4c6eb8c9bed0fcb6e29eb5fa5f"
 }
